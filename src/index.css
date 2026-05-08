@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+
+:root {
+  --accent:          #7c3aed;
+  --accent-light:    #a78bfa;
+  --accent-hover:    #6d28d9;
+  --accent-subtle:   rgba(124, 58, 237, 0.1);
+  --accent-glow:     rgba(124, 58, 237, 0.3);
+  --bg:              #f5f4f8;
+  --card-bg:         rgba(255, 255, 255, 0.85);
+  --card-border:     rgba(255, 255, 255, 0.9);
+  --card-shadow:
+    0 4px 6px -1px rgba(0,0,0,0.04),
+    0 20px 60px -10px rgba(0,0,0,0.12),
+    0 0 0 1px rgba(0,0,0,0.04);
+  --text-primary:     #1a1625;
+  --text-muted:       #7c7489;
+  --text-placeholder: #b5afc0;
+  --divider:          rgba(0,0,0,0.07);
+  --input-bg:         rgba(0,0,0,0.03);
+  --input-border:     rgba(0,0,0,0.1);
+  --filter-border:    rgba(0,0,0,0.1);
+  --item-bg:          rgba(255,255,255,0.7);
+  --item-border:      rgba(0,0,0,0.06);
+  --item-hover:       rgba(255,255,255,0.95);
+  --item-hover-border: rgba(124,58,237,0.2);
+  --item-done-bg:     rgba(0,0,0,0.02);
+  --item-done-border: rgba(0,0,0,0.04);
+  --check-border:     rgba(0,0,0,0.18);
+  --scrollbar:        rgba(0,0,0,0.12);
+  --progress-track:   rgba(0,0,0,0.08);
+  --delete-hover-bg:    rgba(239,68,68,0.08);
+  --delete-hover-color: #ef4444;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent:          #a78bfa;
+    --accent-light:    #c4b5fd;
+    --accent-hover:    #8b5cf6;
+    --accent-subtle:   rgba(167,139,250,0.12);
+    --accent-glow:     rgba(167,139,250,0.35);
+    --bg:              #0f0d17;
+    --card-bg:         rgba(22,19,36,0.9);
+    --card-border:     rgba(255,255,255,0.06);
+    --card-shadow:
+      0 4px 6px -1px rgba(0,0,0,0.3),
+      0 20px 60px -10px rgba(0,0,0,0.6),
+      0 0 0 1px rgba(255,255,255,0.04);
+    --text-primary:     #f0ecff;
+    --text-muted:       #7c7a8f;
+    --text-placeholder: #4b4860;
+    --divider:          rgba(255,255,255,0.06);
+    --input-bg:         rgba(255,255,255,0.04);
+    --input-border:     rgba(255,255,255,0.1);
+    --filter-border:    rgba(255,255,255,0.1);
+    --item-bg:          rgba(255,255,255,0.03);
+    --item-border:      rgba(255,255,255,0.06);
+    --item-hover:       rgba(255,255,255,0.06);
+    --item-hover-border: rgba(167,139,250,0.25);
+    --item-done-bg:     rgba(0,0,0,0.15);
+    --item-done-border: rgba(255,255,255,0.03);
+    --check-border:     rgba(255,255,255,0.2);
+    --scrollbar:        rgba(255,255,255,0.1);
+    --progress-track:   rgba(255,255,255,0.07);
+    --delete-hover-bg:    rgba(239,68,68,0.1);
+    --delete-hover-color: #f87171;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); }
+#root { min-height: 100svh; }
+button, input { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
