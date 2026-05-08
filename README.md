@@ -2,7 +2,7 @@
 
 > Get things done, beautifully.
 
-A clean, minimal task manager built with **React + Vite**, featuring a glassmorphism UI, dark mode, and smooth animations.
+A dark editorial task manager built with **React + Vite** — gold accents, due dates, filters, and smooth animations.
 
 ## 📸 Preview
 
@@ -11,10 +11,10 @@ A clean, minimal task manager built with **React + Vite**, featuring a glassmorp
 ## ✨ Features
 
 - ✅ Add, complete, and delete tasks
+- 📅 Due dates with Overdue / Today / Tomorrow labels
 - 🔍 Filter by All / Active / Completed
 - 📊 Live progress bar
-- 🌙 Auto dark mode (follows system preference)
-- 🎨 Glassmorphism card UI
+- 🌑 Dark editorial UI with gold accents
 - ✨ Smooth entrance animations
 - 📱 Fully responsive
 
@@ -22,7 +22,7 @@ A clean, minimal task manager built with **React + Vite**, featuring a glassmorp
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/taskflow.git
+git clone https://github.com/pujanrasaili/taskflow.git
 
 # Go into the folder
 cd taskflow
