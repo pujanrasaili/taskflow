@@ -4,10 +4,6 @@
 
 A dark editorial task manager built with **React + Vite** — gold accents, due dates, filters, and smooth animations.
 
-## 📸 Preview
-
-![TaskFlow Preview](./preview.png)
-
 ## ✨ Features
 
 - ✅ Add, complete, and delete tasks
