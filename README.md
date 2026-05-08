@@ -1,16 +1,58 @@
-# React + Vite
+# ✦ TaskFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Get things done, beautifully.
 
-Currently, two official plugins are available:
+A clean, minimal task manager built with **React + Vite**, featuring a glassmorphism UI, dark mode, and smooth animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+![TaskFlow Preview](./preview.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ Add, complete, and delete tasks
+- 🔍 Filter by All / Active / Completed
+- 📊 Live progress bar
+- 🌙 Auto dark mode (follows system preference)
+- 🎨 Glassmorphism card UI
+- ✨ Smooth entrance animations
+- 📱 Fully responsive
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/YOUR_USERNAME/taskflow.git
+
+# Go into the folder
+cd taskflow
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+## 🛠 Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- Pure CSS (no UI libraries)
+- CSS custom properties for theming
+
+## 📁 Project Structure
+
+src/
+├── App.jsx       # Main component & logic
+├── App.css       # Component styles
+├── index.css     # Global styles & design tokens
+└── main.jsx      # Entry point
+
+## 🌙 Dark Mode
+
+TaskFlow automatically switches to dark mode based on your system preference using `prefers-color-scheme`.
+
+## 📄 License
+
+MIT — free to use and modify.
