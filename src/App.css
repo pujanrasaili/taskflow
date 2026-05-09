@@ -541,3 +541,121 @@
   .footer      { padding: 14px 20px 18px; }
   .due-input   { width: 110px; }
 }
+
+/* ── Drag handle ─────────────────────────────────────── */
+.drag-handle {
+  flex-shrink: 0;
+  width: 16px;
+  color: var(--text-muted);
+  cursor: grab;
+  opacity: 0;
+  transition: opacity 0.15s;
+  display: flex;
+  align-items: center;
+}
+
+.task-item:hover .drag-handle { opacity: 1; }
+.drag-handle:active { cursor: grabbing; }
+.drag-handle svg { width: 8px; height: 14px; }
+
+/* ── Drag states ─────────────────────────────────────── */
+.task-item.dragging {
+  opacity: 0.4;
+  background: var(--surface-3);
+}
+
+.task-item.drag-over {
+  background: var(--accent-subtle);
+  border-top: 1px solid var(--accent-border);
+}
+
+/* ── Task actions (edit + delete) ────────────────────── */
+.task-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.task-item:hover .task-actions { opacity: 1; }
+
+.edit-btn {
+  flex-shrink: 0;
+  width: 28px; height: 28px;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: color 0.15s, background 0.15s;
+  border-radius: 6px;
+}
+
+.edit-btn:hover {
+  color: var(--accent-bright);
+  background: var(--accent-subtle);
+}
+
+.edit-btn svg { width: 12px; height: 12px; }
+
+/* ── Inline edit ─────────────────────────────────────── */
+.task-item.editing {
+  background: var(--surface-2);
+  border-color: var(--accent-border) !important;
+}
+
+.edit-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.edit-input {
+  flex: 1;
+  height: 34px;
+  padding: 0 12px;
+  background: var(--surface-3);
+  border: 1px solid var(--accent-border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 14px;
+  font-family: 'Geist', sans-serif;
+  font-weight: 300;
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent-subtle);
+}
+
+.edit-save-btn {
+  height: 34px;
+  padding: 0 14px;
+  background: var(--accent);
+  color: #030f0a;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.edit-save-btn:hover { background: var(--accent-bright); }
+
+.edit-cancel-btn {
+  height: 34px;
+  width: 34px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-muted);
+  font-size: 13px;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.edit-cancel-btn:hover { color: var(--red); border-color: var(--red); }
