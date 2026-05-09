@@ -1,33 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Geist:wght@300;400;500&display=swap');
 
 :root {
-  --accent:         #f59e0b;
-  --accent-dim:     #d97706;
-  --accent-glow:    rgba(245, 158, 11, 0.25);
-  --accent-subtle:  rgba(245, 158, 11, 0.08);
+  --accent:          #10b981;
+  --accent-dim:      #059669;
+  --accent-bright:   #34d399;
+  --accent-glow:     rgba(16, 185, 129, 0.2);
+  --accent-subtle:   rgba(16, 185, 129, 0.07);
+  --accent-border:   rgba(16, 185, 129, 0.25);
 
-  --bg:             #0a0908;
-  --surface:        #111009;
-  --surface-2:      #1a1812;
-  --surface-3:      #222018;
+  --bg:              #070b0f;
+  --bg-2:            #0c1117;
+  --surface:         #0f1419;
+  --surface-2:       #141c24;
+  --surface-3:       #1a2330;
 
-  --border:         rgba(255,255,255,0.06);
-  --border-hover:   rgba(245,158,11,0.3);
+  --border:          rgba(255,255,255,0.055);
+  --border-2:        rgba(255,255,255,0.03);
+  --border-hover:    rgba(16,185,129,0.3);
 
-  --text-primary:   #f5f0e8;
-  --text-secondary: #8a8070;
-  --text-muted:     #4a4438;
-  --text-placeholder: #3a3428;
+  --text-primary:    #eef2f7;
+  --text-secondary:  #6b7f8f;
+  --text-muted:      #3d5060;
+  --text-placeholder:#2a3a47;
 
-  --done-text:      #4a4438;
-  --delete-hover:   #ef4444;
-  --delete-bg:      rgba(239,68,68,0.08);
+  --red:             #f87171;
+  --red-bg:          rgba(248,113,113,0.08);
+  --amber:           #fbbf24;
 
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
-  --shadow-md: 0 4px 20px rgba(0,0,0,0.5);
-  --shadow-lg: 0 20px 60px rgba(0,0,0,0.7);
+  --shadow-card:
+    0 0 0 1px rgba(255,255,255,0.04),
+    0 8px 32px rgba(0,0,0,0.5),
+    0 32px 80px rgba(0,0,0,0.4);
 
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Geist', 'DM Sans', sans-serif;
   font-size: 15px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -35,6 +40,13 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); min-height: 100svh; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  min-height: 100svh;
+  cursor: default;
+}
+
 #root { min-height: 100svh; }
-button, input { font-family: 'DM Sans', sans-serif; }
+button, input { font-family: 'Geist', sans-serif; }
