@@ -2,14 +2,17 @@
 
 > Get things done, beautifully.
 
-A premium dark task manager built with **React + Vite** — emerald accents, due dates, filters, and smooth animations.
+A premium dark task manager built with **React + Vite** — emerald accents, drag to reorder, due dates, inline editing, and local storage.
 
 ## ✨ Features
 
 - ✅ Add, complete, and delete tasks
+- ✏️ Inline edit — double click any task to rename
+- 🔄 Drag to reorder tasks
 - 📅 Due dates with Overdue / Today / Tomorrow / In X days labels
 - 🔍 Filter by All / Active / Completed
 - 📊 Live progress bar with glow
+- 💾 Local storage — tasks saved after refresh
 - 🌑 Premium dark UI with emerald accents
 - ✨ Smooth entrance animations
 - 📱 Fully responsive
