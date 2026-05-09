@@ -2,15 +2,15 @@
 
 > Get things done, beautifully.
 
-A dark editorial task manager built with **React + Vite** — gold accents, due dates, filters, and smooth animations.
+A premium dark task manager built with **React + Vite** — emerald accents, due dates, filters, and smooth animations.
 
 ## ✨ Features
 
 - ✅ Add, complete, and delete tasks
-- 📅 Due dates with Overdue / Today / Tomorrow labels
+- 📅 Due dates with Overdue / Today / Tomorrow / In X days labels
 - 🔍 Filter by All / Active / Completed
-- 📊 Live progress bar
-- 🌑 Dark editorial UI with gold accents
+- 📊 Live progress bar with glow
+- 🌑 Premium dark UI with emerald accents
 - ✨ Smooth entrance animations
 - 📱 Fully responsive
 
