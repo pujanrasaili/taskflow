@@ -52,6 +52,10 @@ src/
 
 TaskFlow automatically switches to dark mode based on your system preference using `prefers-color-scheme`.
 
+## 👤 Author
+
+**Pujan Rasaili**
+
 ## 📄 License
 
 MIT — free to use and modify.
