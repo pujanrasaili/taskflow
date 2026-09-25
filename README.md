@@ -4,20 +4,20 @@
 
 A premium dark task manager built with **React + Vite** — emerald accents, drag to reorder, due dates, inline editing, and local storage.
 
-## ✨ Features
+## Features
 
-- ✅ Add, complete, and delete tasks
-- ✏️ Inline edit — double click any task to rename
-- 🔄 Drag to reorder tasks
-- 📅 Due dates with Overdue / Today / Tomorrow / In X days labels
-- 🔍 Filter by All / Active / Completed
-- 📊 Live progress bar with glow
-- 💾 Local storage — tasks saved after refresh
-- 🌑 Premium dark UI with emerald accents
-- ✨ Smooth entrance animations
-- 📱 Fully responsive
+-  Add, complete, and delete tasks
+-  Inline edit — double click any task to rename
+-  Drag to reorder tasks
+-  Due dates with Overdue / Today / Tomorrow / In X days labels
+-  Filter by All / Active / Completed
+-  Live progress bar with glow
+-  Local storage — tasks saved after refresh
+-  Premium dark UI with emerald accents
+-  Smooth entrance animations
+-  Fully responsive
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Clone the repo
@@ -33,14 +33,14 @@ npm install
 npm run dev
 ```
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
 - Pure CSS (no UI libraries)
 - CSS custom properties for theming
 
-## 📁 Project Structure
+## Project Structure
 
 src/
 ├── App.jsx       # Main component & logic
@@ -48,18 +48,18 @@ src/
 ├── index.css     # Global styles & design tokens
 └── main.jsx      # Entry point
 
-## 🌙 Dark Mode
+## Dark Mode
 
 TaskFlow automatically switches to dark mode based on your system preference using `prefers-color-scheme`.
 
-## 👤 Author
+## Author
 
 **Pujan Rasaili**
 
-## 📄 License
+## License
 
 MIT — free to use and modify.
 
-## 🌐 Live Demo
+## Live Demo
 
 👉 [taskflow-nine-sigma-13.vercel.app](https://taskflow-nine-sigma-13.vercel.app)
